@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" href="/bootstrap.min.css")
+    link(rel="stylesheet" href="/main.css")
+  body
+    div(class="flex-center-container")
+      div(class='logo-watermark') Send Optimizer
+      div(class='d-inline-block card mt-n3')
+        if title
+          div(class="card-header text-center")
+            h1 #{title}
+        div(class="card-body text-center")
+          block content

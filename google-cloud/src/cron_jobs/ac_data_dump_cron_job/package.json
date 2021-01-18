@@ -1,0 +1,12 @@
+{
+  "name": "ac-data-dump-cron-job",
+  "version": "0.0.1",
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.7.0",
+    "axios": "^0.21.1",
+    "mysql-promisify": "^1.0.2"
+  }
+}

@@ -1,0 +1,31 @@
+:disabled {
+  cursor: not-allowed;
+}
+.nav-link {
+  cursor: pointer;
+}
+.custom-dropdown {
+  display: inline-block;
+  margin-left: 1rem;
+  vertical-align: top;
+}
+.custom-dropdown .custom-dropdown-menu {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.campaign-card {
+  margin-top: 5px;
+}
+.hide-pagination .pagination-bottom {
+  display: none;
+}
+.bg-cell {
+  padding: 0 !important;
+}
+.bg-cell .bg-cell-inner {
+  width: 100%;
+  height: 100%;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-bottom: 6px;
+}
