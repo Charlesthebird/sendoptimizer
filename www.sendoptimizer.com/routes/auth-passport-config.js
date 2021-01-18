@@ -18,8 +18,8 @@ passport.use(
         // "http://localhost:3000/auth/google/callback",
         process.env.DEBUG_MODE === "development"
           ? "http://localhost:3000/auth/google/callback"
-          : // : "https://sendoptimizer.com/auth/google/callback",
-            "https://send-optimizer.ue.r.appspot.com/auth/google/callback",
+          : "https://sendoptimizer.com/auth/google/callback",
+      // : "https://send-optimizer.ue.r.appspot.com/auth/google/callback",
     },
     (accessToken, refreshToken, profile, done) => {
       done(null, profile); // passes the profile data to serializeUser
